@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "less-build": "node-less-chokidar -w ./less/index.less -o ./less --usePolling --pollong-interval 1000"
+    "less-build": "node-less-chokidar -w ./less/index.less -o ./less --usePolling --pollong-interval 1000",
+    "scss-build": "node-sass-chokidar -w ./scss/index.scss -o ./scss --usePolling --pollong-interval 1000 --output-style expanded"
   },
   "repository": {
     "type": "git",
